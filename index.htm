@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="images/logo.jpg" style="border-radius: 10%;">
+	<title>Ninjas Studio</title>
+</head>
+<body>
+<!--Music Project made by: Prachi Puri-->
+
+<!--Navigation bar-->
+	<div class="navigation">
+		<!--Left navigation bar contains logo, studio name and favourites title-->
+		<div class="nav-bar-left">
+			<img src="images/logo.jpg" class="logo">
+			<ul>
+				<li><img src=""></li>
+				<li>Ninjas Studio</li>
+
+				<li>Favourites</li>
+			</ul>
+		</div>
+
+		<!--Right navigation bar contains search bar, microphone and profile icon-->
+		<div class="nav-bar-right">
+			<div class="search-bar">
+				<ul>
+					<li><i class="fa fa-search" style="font-size: 25px;"></i></li>
+					<li><input type="text" name="search" value="" placeholder="Search" id="search"></li>
+					<li><a href=""><i class="fa fa-microphone" style="font-size:25px"></i></a></li>
+				</ul>
+			</div>
+				<ul>
+					<li><a href=""><i class="fa fa-bell" style="font-size:25px;"></i></a></li>
+					<li><a href=""><i class="fa fa-user-circle" style="font-size:25px"></i></a></li>
+				</ul>
+		</div>
+	</div>
+
+
+<div class="left-right">
+
+<!--Left side of the page-->
+	<div class="left-side">
+	<!--Carousel-->
+		<div class="carousel">
+			<div class="card1"><a href=""><img src="images/card1.jpg"></a></div>
+
+			<div class="card2"><a href=""><img src="images/card2.jpg"></a></div>
+
+			<div class="card3"><a href=""><img src="images/card3.jpg"></a></div>
+		</div>
+
+<!--Latest Release-->
+
+<!--This area contains 4 songs that are the latest releases-->
+	<div class="latest-release">
+		<h2 class="heading">Latest Release</h2>
+
+		<div class="latest-release-cards">
+			<!--First song-->
+			<div class="latest-release-1">
+				<div class="container">
+				<img src="images/ranjha-song.jpg" class="image">
+				<div class="middle">
+					<img src="images/music-play.jpg" style="height: 70px; width: 70px; border-radius: 50%;">
+				</div>
+				</div>
+				<p id="a"><b style="font-size: 20px;">Ranjha</b><br><br>Aug 05, 2021<br>03:48</p>
+				<div class="dropdown-content" id="b">
+					<select id="options">
+							<option id="opt"><a href="">Play Now</a></option>
+							<option id="opt"><a href="">Add To Queue</a></option>
+							<option><a href="">Add To Favourites</a></option>
+							<option><a href="">Get Info</a></option>
+					</select>
+				</div>
+			</div>
+
+			<!--Second song-->
+			<div class="latest-release-2">
+				<div class="container">
+				<img src="images/param-sundari-song.jpg" class="image">
+				<div class="middle">
+					<img src="images/music-play.jpg" style="height: 70px; width: 70px; border-radius: 50%;">
+				</div>
+				</div>
+				<p id="a"><b style="font-size: 20px;">Param Sundari</b><br><br>July 16, 2021<br>03:20</p>
+				<div class="dropdown-content" id="b">
+					<select id="options">
+							<option id="opt"><a href="">Play Now</a></option>
+							<option id="opt"><a href="">Add To Queue</a></option>
+							<option><a href="">Add To Favourites</a></option>
+							<option><a href="">Get Info</a></option>
+					</select>
+				</div>
+			</div>
+
+			<!--Third song-->
+			<div class="latest-release-3">
+				<div class="container">
+				<img src="images/sakhiyan-song.jpg" class="image">
+				<div class="middle">
+					<img src="images/music-play.jpg" style="height: 70px; width: 70px; border-radius: 50%;">
+				</div>
+				</div>
+				<p id="a"><b style="font-size: 20px;">Sakhiyan 2.0</b><br><br>Aug 13, 2021<br>02:57</p>
+				<div class="dropdown-content" id="b">
+					<select id="options">
+							<option id="opt"><a href="">Play Now</a></option>
+							<option id="opt"><a href="">Add To Queue</a></option>
+							<option><a href="">Add To Favourites</a></option>
+							<option><a href="">Get Info</a></option>
+					</select>
+				</div>
+			</div>
+
+			<!--Fourth song-->
+			<div class="latest-release-4">
+				<div class="container">
+				<img src="images/nadiyon-paar-song.jpg" class="image">
+				<div class="middle">
+					<img src="images/music-play.jpg" style="height: 70px; width: 70px; border-radius: 50%;">
+				</div>
+				</div>
+				<p id="a"><b style="font-size: 20px;">Nadiyon Paar</b><br><br>Mar 03, 2021<br>02:44</p>
+				<div class="dropdown-content" id="b">
+					<select id="options">
+							<option id="opt"><a href="">Play Now</a></option>
+							<option id="opt"><a href="">Add To Queue</a></option>
+							<option><a href="">Add To Favourites</a></option>
+							<option><a href="">Get Info</a></option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--Popular Artists-->
+	<!--This area contains the popular artists having the seperate page when clicked on it-->
+	<div class="popular-artists">
+		<h2 class="heading">Popular Artists</h2>
+
+		<div class="artists">
+			<div class="artist-1">
+				<a href="artists-page.html"><img src="images/arijit-singh.jpg"></a>
+				<a href="artists-page.html"><p>Arijit Singh</p></a>
+			</div>
+			<div class="artist-2">
+				<a href="artists-page.html"><img src="images/diljit-dosanjh.jpg"></a>
+				<a href="artists-page.html"><p>Diljit Dosanjh</p></a>
+			</div>
+			<div class="artist-3">
+				<a href="artists-page.html"><img src="images/shreya-ghoshal.jpg"></a>
+				<a href="artists-page.html"><p>Shreya Ghoshal</p></a>
+			</div>
+			<div class="artist-4">
+				<a href="artists-page.html"><img src="images/darshan-raval.jpg"></a>
+				<a href="artists-page.html"><p>Darshan Raval</p></a>
+			</div>
+			<div class="artist-5">
+				<a href="artists-page.html"><img src="images/sunidhi-chauhan.jpg"></a>
+				<a href="artists-page.html"><p>Sunidhi Chauhan</p></a>
+			</div>
+			<div class="artist-6">
+				<a href="artists-page.html"><img src="images/guru-randhawa.jpg"></a>
+				<a href="artists-page.html"><p>Guru Randhawa</p></a>
+			</div>
+		</div>
+	</div>
+
+<!--Music Stations-->
+	<div class="music-stations">
+		<div class="main-image"><img src="images/music-station.jpg"></div>
+
+			<div class="station love-song">
+				<div class="cont">
+					<img src="images/love-song.jpg" class="image">
+					<div class="middle-text">
+						<div class="text">Love</div>
+					</div>
+				</div>
+			</div>
+			<div class="station retro-song">
+				<div class="cont">
+					<img src="images/retro-song.jpg" class="image">
+					<div class="middle-text">
+						<div class="text">Retro</div>
+					</div>
+				</div>
+			</div>
+			<div class="station chill-song">
+				<div class="cont">
+					<img src="images/chill-song.jpg" class="image">
+					<div class="middle-text">
+						<div class="text">Chill</div>
+					</div>
+				</div>
+			</div>
+			<div class="station workout-song">
+				<div class="cont">
+					<img src="images/workout-song.jpg" class="image">
+					<div class="middle-text">
+						<div class="text" style="margin-left:-20px;">Workout</div>
+					</div>
+				</div>
+			</div>
+			<div class="station rock-song">
+				<div class="cont">
+					<img src="images/rock-song.jpg" class="image">
+					<div class="middle-text">
+						<div class="text">Rock</div>
+					</div>
+				</div>
+			</div>
+			<div class="station pop-song">
+				<div class="cont">
+					<img src="images/pop-song.jpg" class="image">
+					<div class="middle-text">
+						<div class="text">Pop</div>
+					</div>
+				</div>
+			</div>
+	</div>
+
+<!--Music Types-->
+	<div class="music-types">
+		<div class="music party">
+			<div class="cont">
+				<img src="images/party-song.jpg" class="image">
+				<div class="middle-text">
+					<div class="text">Party</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="music electronic">
+			<div class="cont">
+				<img src="images/electronic-song.jpg" class="image">
+				<div class="middle-text">
+					<div class="text">Electronic</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="music road">
+			<div class="cont">
+				<img src="images/road-trip-song.jpg" class="image">
+				<div class="middle-text">
+					<div class="text">Road Trip</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--Top Hits Hindi-->
+<div class="hindi-songs">
+	<h2 class="heading">Top Hits Hindi</h2>
+
+	<div class="hsongs">
+		<div class="box song1">
+			<img src="images/raatan-lambiyan.jpg">
+			<p>Raatan Lambiyan</p>
+		</div>
+
+		<div class="box song2">
+			<img src="images/dil-hai-deewana.jpg">
+			<p>Dil Hai Deewana</p>
+		</div>
+
+		<div class="box song3">
+			<img src="images/dheeme-dheeme.jpg">
+			<p>Dheeme Dheeme</p>
+		</div>
+
+		<div class="box song4">
+			<img src="images/dekhte-dekhte.jpg">
+			<p>Dekhte Dekhte</p>
+		</div>
+
+		<div class="box song5">
+			<img src="images/nazm-nazm.jpg">
+			<p>Nazm Nazm</p>
+		</div>
+
+		<div class="box song6">
+			<img src="images/heelein-toot-gayi.jpg">
+			<p>Heelein Toot Gayi</p>
+		</div>
+	</div>
+</div>
+
+<!--Top Hits Punjabi-->
+<div class="punjabi-songs">
+	<h2 class="heading">Top Hits Punjabi</h2>
+
+	<div class="psongs">
+		<div class="box song1">
+			<img src="images/sira-e-hou.jpg">
+			<p>Sira E Hou</p>
+		</div>
+
+		<div class="box song2">
+			<img src="images/goat.jpg">
+			<p>GOAT</p>
+		</div>
+
+		<div class="box song3">
+			<img src="images/lehanga.jpg">
+			<p>Lehanga</p>
+		</div>
+
+		<div class="box song4">
+			<img src="images/brown-munde.jpg">
+			<p>Brown Munde</p>
+		</div>
+
+		<div class="box song5">
+			<img src="images/pani-di-gal.jpg">
+			<p>Pani Di Gal</p>
+		</div>
+
+		<div class="box song6">
+			<img src="images/khabbi-seat.jpg">
+			<p>Khabbi Seat</p>
+		</div>
+	</div>
+</div>
+</div>
+
+<!--This is the right side of the page containing the songs which are queued next to be played-->
+<div class="right-side">
+<!--Queue-->
+<div class="queue">
+	<h2 class="heading">My Playlist</h2>
+	<div class="qu">
+	<p id="q">Queue<select>
+		<option>Playlists</option>
+		<option>Favourite Songs</option>
+	</select></p>
+	</div>
+
+	<div class="playlist">
+		<ul>
+			<li>
+				<div class="element">
+					<div id="song-image">
+						<img src="images/mann-bharryaa.jpg">
+					</div>
+					<div id="song-details">
+						<p id="song-name">Mann Bharryaa</p>
+						<p id="singer-name">B Praak</p>
+					</div>
+					<div id="like" style="margin-left: 100px;">
+						<i class="fa fa-heart-o"></i>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<div class="element">
+					<div id="song-image">
+						<img src="images/ranjha-song.jpg">
+					</div>
+					<div id="song-details">
+						<p id="song-name">Ranjha</p>
+						<p id="singer-name">Jasleen Royal, B Praak</p>
+					</div>
+					<div id="like">
+						<i class="fa fa-heart-o" style="margin-left: 65px;"></i>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<div class="element">
+					<div id="song-image">
+						<img src="images/dil-hai-deewana.jpg">
+					</div>
+					<div id="song-details">
+						<p id="song-name">Dil Hai Deewana</p>
+						<p id="singer-name">Darshan Raval, Zara Khan</p>
+					</div>
+					<div id="like">
+						<i class="fa fa-heart-o" style="margin-left: 10px;"></i>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<div class="element">
+					<div id="song-image">
+						<img src="images/lehanga.jpg">
+					</div>
+					<div id="song-details">
+						<p id="song-name">Lehanga</p>
+						<p id="singer-name">Jass Manak</p>
+					</div>
+					<div id="like" style="margin-left: 95px;">
+						<i class="fa fa-heart-o"></i>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<div class="element">
+					<div id="song-image">
+						<img src="images/heelein-toot-gayi.jpg">
+					</div>
+					<div id="song-details">
+						<p id="song-name">Heelein Toot Gayi</p>
+						<p id="singer-name">Badshah, Aastha Gill</p>
+					</div>
+					<div id="like">
+						<i class="fa fa-heart-o" style="margin-left: 35px;"></i>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<div class="element">
+					<div id="song-image">
+						<img src="images/khabbi-seat.jpg">
+					</div>
+					<div id="song-details">
+						<p id="song-name">Khabbi Seat</p>
+						<p id="singer-name">Ammy Virk</p>
+					</div>
+					<div id="like">
+						<i class="fa fa-heart-o" style="margin-left: 75px;"></i>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<div class="element">
+					<div id="song-image">
+						<img src="images/goat.jpg">
+					</div>
+					<div id="song-details">
+						<p id="song-name">GOAT</p>
+						<p id="singer-name">Diljit Dosanjh</p>
+					</div>
+					<div id="like"style="margin-left: 85px;">
+						<i class="fa fa-heart-o"></i>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<div class="element">
+					<div id="song-image">
+						<img src="images/dekhte-dekhte.jpg">
+					</div>
+					<div id="song-details">
+						<p id="song-name">Dekhte Dekhte</p>
+						<p id="singer-name">Atif Aslam</p>
+					</div>
+					<div id="like">
+						<i class="fa fa-heart-o" style="margin-left: 55px;"></i>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<div class="element">
+					<div id="song-image">
+						<img src="images/nazm-nazm.jpg">
+					</div>
+					<div id="song-details">
+						<p id="song-name">Nazm Nazm</p>
+						<p id="singer-name">Arko</p>
+					</div>
+					<div id="like">
+						<i class="fa fa-heart-o" style="margin-left: 70px;"></i>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<div class="element">
+					<div id="song-image">
+						<img src="images/sira-e-hou.jpg">
+					</div>
+					<div id="song-details">
+						<p id="song-name">Sira E Hou</p>
+						<p id="singer-name">Amrit Maan, Nimrat Khaira</p>
+					</div>
+					<div id="like">
+						<i class="fa fa-heart-o" style="margin-left: 10px;"></i>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<div class="element">
+					<div id="song-image">
+						<img src="images/raatan-lambiyan.jpg">
+					</div>
+					<div id="song-details">
+						<p id="song-name">Raatan Lambiyan</p>
+						<p id="singer-name">Jubin Nautiyal, Asees Kaur</p>
+					</div>
+					<div id="like">
+						<i class="fa fa-heart-o" style="margin-left: 8px;"></i>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<div class="element">
+					<div id="song-image">
+						<img src="images/pani-di-gal.jpg">
+					</div>
+					<div id="song-details">
+						<p id="song-name">Pani Di Gal</p>
+						<p id="singer-name">Maninder Buttar, Asees Kaur</p>
+					</div>
+					<div id="like">
+						<i class="fa fa-heart-o"></i>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<div class="element">
+					<div id="song-image">
+						<img src="images/brown-munde.jpg">
+					</div>
+					<div id="song-details">
+						<p id="song-name">Brown Munde</p>
+						<p id="singer-name">AP Dhillon</p>
+					</div>
+					<div id="like">
+						<i class="fa fa-heart-o" style="margin-left: 65px;"></i>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<div class="element">
+					<div id="song-image">
+						<img src="images/dheeme-dheeme.jpg">
+					</div>
+					<div id="song-details">
+						<p id="song-name">Dheeme Dheeme</p>
+						<p id="singer-name">Tony Kakkar, Neha Kakkar</p>
+					</div>
+					<div id="like">
+						<i class="fa fa-heart-o" style="margin-left: 10px;"></i>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+</div>
+</div>
+
+<!--This is the footer of the page having the audio bar-->
+<div class="footer">
+        <div class="active-song-description">
+            <!-- song image -->
+            <div id="song-image">
+                <img src="images/ranjha-song.jpg">
+            </div>
+            <!-- song name and author -->
+            <div class="song-desc">
+                <div>
+                    Ranjha
+                </div>
+                <div>
+                    B Praak, Jasleen Royal
+                </div>
+                <!-- heart icon and ban icon -->
+            </div>
+            <div class="heart-and-ban-icon">
+                <span>
+                    <i class="fa fa-heart-o"></i>
+                </span>
+                <span>
+                    <i class="fa fa-ban"></i>
+                </span>
+            </div>
+        </div>
+<div class="player">
+            <div class="controls">
+                <div><i class="fa fa-random"></i></div>
+                <div><i class="fa fa-step-backward"></i></div>
+                <div><i class="fa fa-pause-circle"></i></div>
+                <div><i class="fa fa-step-forward"></i></div>
+                <div><i class="fa fa-redo"></i></div>
+            </div>
+            <!-- this is the slider -->
+            <div id="slider">
+                <!-- current time -->
+                <div class="time">
+                    00:00
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+                </div>
+                <!-- total time -->
+                <div class="time">
+                    03:48
+                </div>
+            </div>
+        </div>
+        <!-- other icons including the volume slider and all -->
+        <div class="extras">
+            <div>
+                <i class="fa fa-list-ul"></i>
+            </div>
+            <div>
+                <i class="fa fa-laptop"></i>
+            </div>
+            <div>
+                <i class="fa fa-volume-up"></i>
+            </div>
+            <div class="slidecontainer" style="width:30%;">
+                <input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+            </div>
+            <div>
+                <i class="fa fa-expand-alt"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
